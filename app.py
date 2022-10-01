@@ -72,6 +72,7 @@ def terms():
     return render_template("tc.html")
 
 
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
